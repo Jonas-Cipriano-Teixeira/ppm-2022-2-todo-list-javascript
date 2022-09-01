@@ -1,0 +1,26 @@
+body, button, input {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    padding: 0.5rem;
+}
+
+button {
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+#tarefas li {
+    margin: 1rem 0;
+}
+
+#tarefas li span {
+    color: red;
+}
+
+#tarefas li span.done {
+    color: green;
+    text-decoration: line-through;
+    font-weight: bold;
+}
